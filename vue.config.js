@@ -1,9 +1,16 @@
 const path = require('path');
 
+let mode = '';
+
+if (process.env.NODE_ENV === 'development' && process.env.VUE_APP_API_CLIENT === 'server') {
+    mode = 'productionMock'
+}
+const isProductionMock = mode === 'productionMock';
+
 module.exports = {
-    publicPath: "/markt-pilot-software-challenge/",
+    publicPath: isProductionMock ? "/markt-pilot-software-challenge/" : "",
     chainWebpack: config => {
-        if (process.env.NODE_ENV === 'development' && process.env.VUE_APP_API_CLIENT === 'server') {
+        if (isProductionMock) {
             config
                 .plugin('copy')
                 .tap(args => {
