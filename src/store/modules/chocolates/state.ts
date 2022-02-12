@@ -1,9 +1,4 @@
-import { Chocolate, Pagination } from '@/types';
-
-export type State = {
-    pagination: Pagination;
-    data: Chocolate
-}
+import { ChocolateData as State } from '@/types';
 
 export const state: State = {
     pagination: {

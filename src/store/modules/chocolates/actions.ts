@@ -1,8 +1,10 @@
 import { ActionTree, ActionContext } from 'vuex';
 
+import { ChocolateData as State } from '@/types'
+
 import { RootState } from '@/store';
 
-import { State, state } from './state';
+import { state } from './state';
 import { Mutations } from './mutations';
 import { ChocolatesMutationTypes } from './mutation-types';
 import { ChocolatesActionTypes } from './action-types';
