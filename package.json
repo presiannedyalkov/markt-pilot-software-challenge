@@ -4,7 +4,6 @@
   "private": false,
   "scripts": {
     "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve --mode development",
-    "serve:mock": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve --mode production",
     "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --mode production",
     "build:mock": "vue-cli-service build --mode mock",
     "test:unit": "NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development vue-cli-service test:unit",
