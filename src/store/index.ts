@@ -1,7 +1,9 @@
 import { createStore, createLogger } from 'vuex';
 import createPersistedState from 'vuex-persistedstate';
 
-import { store as chocolates, ChocolatesStore, State as ChocolatesState } from '@/store/modules/chocolates';
+import { store as chocolates, ChocolatesStore } from '@/store/modules/chocolates';
+
+import { ChocolateData as ChocolatesState } from '@/types'
 
 export type RootState = {
   chocolates: ChocolatesState;

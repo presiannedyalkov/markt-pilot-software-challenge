@@ -14,8 +14,6 @@ import { actions, Actions } from './actions';
 
 import { ChocolateData as State } from '@/types'
 
-export { State };
-
 export type ChocolatesStore<S = State> = Omit<VuexStore<S>, 'getters' | 'commit' | 'dispatch'>
     & {
         commit<K extends keyof Mutations, P extends Parameters<Mutations[K]>[1]>(
