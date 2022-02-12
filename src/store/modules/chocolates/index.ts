@@ -12,7 +12,7 @@ import { getters, Getters } from './getters';
 import { mutations, Mutations } from './mutations';
 import { actions, Actions } from './actions';
 
-import type { State } from './state';
+import { ChocolateData as State } from '@/types'
 
 export { State };
 

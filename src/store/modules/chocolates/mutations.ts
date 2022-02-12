@@ -2,7 +2,7 @@ import { MutationTree } from 'vuex';
 
 import { ChocolateData } from '@/types';
 
-import { State } from './state';
+import { ChocolateData as State } from '@/types'
 import { ChocolatesMutationTypes } from './mutation-types';
 
 export type Mutations<S = State> = {

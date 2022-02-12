@@ -4,7 +4,7 @@ import { RootState } from '@/store';
 
 import { Chocolate, Pagination } from '@/types';
 
-import { State } from './state';
+import { ChocolateData as State } from '@/types'
 
 export type Getters = {
     getPagination(state: State): Pagination;
