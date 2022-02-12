@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+    publicPath: "/markt-pilot-software-challenge/",
     chainWebpack: config => {
         if (process.env.NODE_ENV === 'development' && process.env.VUE_APP_API_CLIENT === 'server') {
             config
