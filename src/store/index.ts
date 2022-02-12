@@ -10,7 +10,7 @@ export type RootState = {
 export type Store = ChocolatesStore<Pick<RootState, 'chocolates'>>;
 
 // Plug in logger when in development environment
-const debug = /*process.env.NODE_ENV !== 'production'*/ true;
+const debug = process.env.NODE_ENV !== 'production';
 const plugins = debug ? [createLogger({})] : [];
 
 // Plug in session storage based persistence
