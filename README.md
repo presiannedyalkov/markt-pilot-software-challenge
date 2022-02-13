@@ -9,9 +9,9 @@ This project is a result of a software challenge given to me by a possible emplo
 
 A friend is completely crazy about chocolate. In order not to spend too much money on his passion, he has written a crawler that always researches the current prices on the Internet. While the crawler is still under development, he wants you to start with a web interface to display the results already. For a first prototype, two views should be created. In the overview, all chocolates should be displayed on one page including name, manufacturer, the lowest price per 100g, the average price per 100g and a direct link to the cheapest shop. In a details view, the name, brand and all market prices including the amount and shop link should be displayed for a selected chocolate. Since the backend is still under development, a static data set will be shown first for demonstration purposes. The structure of the data set already corresponds to the response of the future REST API.
 
-<table class="wysiwyg-macro" data-macro-name="code" data-macro-id="6e3189ac-7759-490f-acd4-bedf9efb3888" data-macro-parameters="language=json" data-macro-schema-version="1" style="background-image: url(https://nexus-home.atlassian.net/wiki/plugins/servlet/confluence/placeholder/macro-heading?definition=e2NvZGU6bGFuZ3VhZ2U9anNvbn0&amp;locale=en_US&amp;version=2); background-repeat: no-repeat;" data-macro-body-type="PLAIN_TEXT">
+<table>
    <tr>
-      <td class="wysiwyg-macro-body">
+      <td>
          <pre>{
   "id": "1",
   "name": "Sesam",
@@ -118,7 +118,9 @@ One of the things currently missing are tests, both unit and e2e, which is somet
 
 ## Documentation
 
-The documentation is split into the following sections - Architecture, Specifications, Development, Operations and Security. The section [https://nexus-home.atlassian.net/wiki/spaces/PRES/pages/27066464](https://nexus-home.atlassian.net/wiki/spaces/PRES/pages/27066464) contains the data structures and data flows, the Specifications contains the functional and technical specifications. The last three sections - Development, Operations and Security are left blank and will be subsequently added later.
+The documentation is split into the following sections - Architecture, Specifications, Development, Operations and Security. The section Architecture contains the data structures and data flows, the Specifications contains the functional and technical specifications. The last three sections - Development, Operations and Security are left blank and will be subsequently added later.
+
+Note: The documentation was written in Confluence and adapted as markdown. This may cause some stuff to break.
 
 ## Sources
 
