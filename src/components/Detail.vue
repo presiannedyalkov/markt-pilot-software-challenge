@@ -163,6 +163,9 @@ export default defineComponent({
   setup() {
     const store = useStore();
     const route = useRoute();
+    // if we land directly here without fetching the date in the overview
+    // this data will be empty
+    // TODO: fetch data if undefined
     const chocolates: Chocolate = store.state.chocolates.data;
     const chocolate = computed(() => {
       return chocolates.filter((a) => a.id === route.params.id)[0];
