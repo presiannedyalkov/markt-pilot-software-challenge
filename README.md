@@ -120,10 +120,11 @@ One of the things currently missing are tests, both unit and e2e, which is somet
 
 The documentation is split into the following sections - Architecture, Specifications, Development, Operations and Security. The section Architecture contains the data structures and data flows, the Specifications contains the functional and technical specifications. The last three sections - Development, Operations and Security are left blank and will be subsequently added later.
 
-[https://github.com/presiannedyalkov/markt-pilot-software-challenge/blob/main/docs/architecture.md](Architecture)
-[https://github.com/presiannedyalkov/markt-pilot-software-challenge/blob/main/docs/fs.md](Functional Specifications)
+[Architecture](https://github.com/presiannedyalkov/markt-pilot-software-challenge/blob/main/docs/architecture.md)
 
-[https://github.com/presiannedyalkov/markt-pilot-software-challenge/blob/main/docs/ts.md](Technical Specifications)
+[Functional Specifications](https://github.com/presiannedyalkov/markt-pilot-software-challenge/blob/main/docs/fs.md)
+
+[Technical Specifications](https://github.com/presiannedyalkov/markt-pilot-software-challenge/blob/main/docs/ts.md)
 
 
 
