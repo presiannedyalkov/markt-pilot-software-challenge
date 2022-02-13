@@ -171,8 +171,7 @@ Note: The documentation was written in Confluence and adapted as markdown. This 
 [https://stackoverflow.com/questions/64105088/vue-3-composition-api-data-function](https://stackoverflow.com/questions/64105088/vue-3-composition-api-data-function)  
 [https://stackoverflow.com/questions/67605554/how-to-use-other-store-module-getters-actions-mutations-with-vuex-4-and-typescri](https://stackoverflow.com/questions/67605554/how-to-use-other-store-module-getters-actions-mutations-with-vuex-4-and-typescri)  
 [https://stackoverflow.com/questions/70704377/default-colors-given-in-tailwind-documentation-are-not-working](https://stackoverflow.com/questions/70704377/default-colors-given-in-tailwind-documentation-are-not-working)  
-[https://stackoverflow.com/questions/9592740/how-can-you-sort-an-array-without-mutating-the-original-array](https://stackoverflow.com/questions/9592740/how-can-you-sort-an-array-without-mutating-the-original-array)
-
+[https://stackoverflow.com/questions/9592740/how-can-you-sort-an-array-without-mutating-the-original-array](https://stackoverflow.com/questions/9592740/how-can-you-sort-an-array-without-mutating-the-original-array)  
 [https://stackoverflow.com/questions/51210795/vue-cli-uncaught-syntaxerror-unexpected-token](https://stackoverflow.com/questions/51210795/vue-cli-uncaught-syntaxerror-unexpected-token)  
 [https://tailwindcomponents.com/component/food-nutrition-label](https://tailwindcomponents.com/component/food-nutrition-label "https://tailwindcomponents.com/component/food-nutrition-label")  
 [https://v3.vuejs.org/guide/composition-api-introduction.html#setup-component-option](https://v3.vuejs.org/guide/composition-api-introduction.html#setup-component-option)  
